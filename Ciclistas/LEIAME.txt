@@ -1,0 +1,26 @@
+Sistemas Operacionais [MAC 422]
+EP 2
+
+Participantes: 
+
+    - 11221797: Julia Leite
+    -  8587409: Eduardo Brancher
+
+Compilação:
+
+Implementamos um Makefile, então, para compilar basta fazer:
+>>> make ep
+
+Execução:
+
+Para executar o simulador solicitado, o usuário deve fazer:
+>>> ./ep <d> <n> <debug> <semente(opcional)>
+
+Sendo:
+    - d: o tamanho da pista, em metros
+    - n: o número de ciclista na competição
+    - debug: 0 caso não deseje usar a opção de debug e 1 caso contrário
+    - semente: parâmetro opcional utilizado em srand() para sortear a posição 
+               inicial de cada ciclista, as velocidades, se o ciclista quebrou, etc...
+               caso esse parâmetro não seja passado, utilizamos time(NULL)
+
