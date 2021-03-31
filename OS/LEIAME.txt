@@ -1,0 +1,20 @@
+Sistemas Operacionais - MAC 422
+Exercício Programa 3
+
+Participantes: 
+
+    - 11221797: Julia Leite 
+    - 8587409 : Eduardo Brancher
+
+
+Compilação:
+
+Implementamos um Makefile, então para compilar basta fazer:
+
+>>> make ep
+
+Execução:
+
+O EP foi programado em C++, então, após compilar, para executar basta fazer:
+
+>>> ./ep
